@@ -8,11 +8,15 @@ The Superherdr 0.1.0 release is staged as a draft. The formula in this tap is **
 
 ## Install
 
-After the release is published:
+After the release is published, add this tap and install the formula. Homebrew versions with `brew trust` require the first command before loading a new third-party formula:
 
 ```sh
+brew trust --formula jsonmartin/tap/superherdr
+brew tap jsonmartin/tap
 brew install jsonmartin/tap/superherdr
 ```
+
+If your Homebrew version does not have `brew trust`, omit that first command.
 
 Run it as `superherdr` or `herdr` — both names invoke the same binary.
 
