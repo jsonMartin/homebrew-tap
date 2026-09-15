@@ -4,11 +4,11 @@ Homebrew tap for [Superherdr](https://github.com/jsonmartin/superherdr), a termi
 
 ## Status
 
-The Superherdr 0.1.0 release is staged as a draft. The formula in this tap is **not installable yet** — installing before publication will fail to download.
+Superherdr [0.1.0](https://github.com/jsonmartin/superherdr/releases/tag/superherdr-v0.1.0) is published and installable from this tap.
 
 ## Install
 
-After the release is published, add this tap and install the formula. Homebrew versions with `brew trust` require the first command before loading a new third-party formula:
+Add this tap and install the formula. Homebrew versions with `brew trust` require the first command before loading a new third-party formula:
 
 ```sh
 brew trust --formula jsonmartin/tap/superherdr
@@ -30,4 +30,4 @@ Superherdr and the original Herdr formula both provide a `herdr` command, so Hom
 
 - Apple Silicon (arm64) Macs only
 - Deployment target macOS 13 (Ventura); tested on macOS 27. macOS 13 runtime behavior is **not** verified.
-- No Linux, Intel, or Windows builds are provided
+- This tap provides only the macOS Apple Silicon package; Linux x86_64 uses the [release shell installer](https://github.com/jsonmartin/superherdr#linux-x86_64-shell-installer). No Intel or Windows builds are provided

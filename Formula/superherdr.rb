@@ -3,12 +3,12 @@ class Superherdr < Formula
   homepage "https://github.com/jsonmartin/superherdr"
   url "https://github.com/jsonmartin/superherdr/releases/download/superherdr-v0.1.0/superherdr-0.1.0-macos-aarch64.tar.gz"
   version "0.1.0"
-  sha256 "59b40f0d89d437fefca2e2e8d040831113dacb69da51599248e2c1b34e96d427"
+  sha256 "b19aae72692725be26a357f008784286221d6992c5aa23495258716fe0fe43a9"
   license "Apache-2.0"
 
   bottle do
     root_url "https://github.com/jsonmartin/superherdr/releases/download/superherdr-v0.1.0"
-    sha256 cellar: :any_skip_relocation, arm64_golden_gate: "5e2693793f48cf9d89923fc1c92f365cfdff6dc415faca4a8917608b15f3c3d8"
+    sha256 cellar: :any_skip_relocation, arm64_golden_gate: "17b188d56eeaeaa9e5a62d1038a2b91a26a025f18d0da5858dbada3cd74b4005"
   end
 
   depends_on arch: :arm64
