@@ -1,10 +1,10 @@
 # jsonmartin/tap
 
-Homebrew tap for [Superherdr](https://github.com/jsonmartin/superherdr), a terminal workspace manager built on [Herdr](https://github.com/herdrdev/herdr) with focus, snooze, and top-level agents.
+Homebrew tap for [Superherdr](https://github.com/jsonmartin/superherdr), a drop-in replacement for [Herdr](https://github.com/herdrdev/herdr) that adds focus, snooze, and top-level agents.
 
 ## Status
 
-Superherdr [0.1.0](https://github.com/jsonmartin/superherdr/releases/tag/superherdr-v0.1.0) is published and installable from this tap.
+Superherdr [0.9.0.1](https://github.com/jsonmartin/superherdr/releases/tag/superherdr-v0.9.0.1) is published and installable from this tap.
 
 ## Install
 
@@ -18,13 +18,11 @@ brew install jsonmartin/tap/superherdr
 
 If your Homebrew version does not have `brew trust`, omit that first command.
 
-Run it as `superherdr` or `herdr` — both names invoke the same binary.
+Run it as `herdr`. It uses Herdr's configuration, plugins, and sessions, and `herdr --version` prints `herdr 0.9.0 (superherdr 0.9.0.1)`.
 
 ## Conflict with Herdr
 
 Superherdr and the original Herdr formula both provide a `herdr` command, so Homebrew refuses to link both at once. Run `brew unlink herdr` before installing Superherdr; this preserves your original installation so it can be relinked later.
-
-`herdr-og` is a personal, existing snapshot of Herdr. It is **not** provided by this public tap.
 
 ## Requirements
 
