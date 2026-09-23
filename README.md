@@ -4,7 +4,7 @@ Homebrew tap for [Superherdr](https://github.com/jsonmartin/superherdr), a drop-
 
 ## Status
 
-Superherdr [0.9.0.1](https://github.com/jsonmartin/superherdr/releases/tag/superherdr-v0.9.0.1) is published and installable from this tap.
+Superherdr [0.9.1.2](https://github.com/jsonmartin/superherdr/releases/tag/superherdr-v0.9.1.2) is published and installable from this tap.
 
 ## Install
 
@@ -18,7 +18,7 @@ brew install jsonmartin/tap/superherdr
 
 If your Homebrew version does not have `brew trust`, omit that first command.
 
-Run it as `herdr`. It uses Herdr's configuration, plugins, and sessions, and `herdr --version` prints `herdr 0.9.0 (superherdr 0.9.0.1)`.
+Run it as `herdr`. It uses Herdr's configuration, plugins, and sessions, and `herdr --version` prints `herdr 0.9.1 (superherdr 0.9.1.2)`.
 
 ## Conflict with Herdr
 
