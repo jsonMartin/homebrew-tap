@@ -1,9 +1,9 @@
 class Superherdr < Formula
   desc "Drop-in herdr with focus, snooze, and top-level agents"
   homepage "https://github.com/jsonmartin/superherdr"
-  url "https://github.com/jsonmartin/superherdr/releases/download/superherdr-v0.9.3.1/superherdr-0.9.3.1-macos-aarch64.tar.gz"
-  version "0.9.3.1"
-  sha256 "6ebc32fc154886556b8968c34dc383c9ba018afd7961a5a8d41cc8e3f1368f1d"
+  url "https://github.com/jsonmartin/superherdr/releases/download/superherdr-v0.9.5.1/superherdr-0.9.5.1-macos-aarch64.tar.gz"
+  version "0.9.5.1"
+  sha256 "0f19b1bbaacba0dbd79be6a8a110e70b75b096dcc21f1fd1218d9a3a33d109f8"
   license "Apache-2.0"
 
   depends_on arch: :arm64
@@ -17,6 +17,6 @@ class Superherdr < Formula
   end
 
   test do
-    assert_equal "herdr 0.9.3 (superherdr 0.9.3.1)", shell_output("#{bin}/herdr --version").strip
+    assert_equal "herdr 0.9.5 (superherdr 0.9.5.1)", shell_output("#{bin}/herdr --version").strip
   end
 end
